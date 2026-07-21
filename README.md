@@ -10,10 +10,11 @@ use the below cURL command to see it in action. Note that this is just a demo so
 NOTE: Update the port number here to whatever the console displays when you run the dotnet app above. It should say something along the lines of 'Now listening on 5XXX'
 
 
-<img width="600" height="115" alt="image" src="https://github.com/user-attachments/assets/6ce3b035-d19e-4f0d-937d-0da2d6d7a42e" />
+<img width="469" height="55" alt="image" src="https://github.com/user-attachments/assets/169fefcd-4cc5-4f62-9bac-b533f329aa05" />
 
 ```bash
 curl -X POST http://localhost:5117/api/triage \
   -H "Content-Type: application/json" \
   -d '{"systemId": "auth-service", "description": "Users getting 504 Gateway Timeouts during login"}'
 ```
+<img width="833" height="213" alt="image" src="https://github.com/user-attachments/assets/04bc2d80-d6ae-4d15-9790-291017e04bf6" />
