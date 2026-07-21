@@ -1,0 +1,73 @@
+## Core .NET Build and Release Outputs
+[Bb]in/
+[Oo]bj/
+[Mm]odules/
+[Ll]og/
+[Ll]ogs/
+
+## .NET Core / .NET 10 Specific
+*.deps.json
+*.runtimeconfig.json
+*.exe
+*.dll
+*.pdb
+*.suo
+
+## User-specific files and local settings
+*.user
+*.userosscache
+*.sln.docstates
+appsettings.Development.json
+appsettings.Local.json
+
+## Secrets and Certificates
+## (Never commit actual credentials or dev certificates)
+secrets.json
+*.pfx
+*.cer
+*.crt
+*.pem
+
+## Visual Studio Tools and Cache
+.vs/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+bcl/
+VisualStudioTester/
+*.containers.csproj.user
+
+## Visual Studio Code
+.vscode/
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+.history/
+.ionide/
+
+## Rider / JetBrains IDE
+.idea/
+*.sln.iml
+
+## Package Management
+*.nupkg
+*.snupkg
+# NuGet packages directory
+packages/
+# Paket CLI
+.paket/
+# Paket restore artifacts
+paket-files/
+
+## Rider and Resharper cache
+_ReSharper*/
+*.[Cc]ache/
+启用DotSettings.user
+
+## OS Generated Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
